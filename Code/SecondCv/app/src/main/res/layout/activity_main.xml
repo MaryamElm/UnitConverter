@@ -25,7 +25,7 @@
         android:textColor="#F3E7E7"
         android:textSize="18sp"
         android:textStyle="italic" />
-
+//setting the conversion button,changing the color and adding a symbol
     <Button
         android:id="@+id/cnvrt"
         android:layout_width="wrap_content"
@@ -42,7 +42,7 @@
         android:textColor="#E6DEE1"
         android:textSize="45sp"
         android:textStyle="bold" />
-
+//Setting the characteristics for the 'from 'Spinner
     <Spinner
         android:id="@+id/spinner_from"
         android:layout_width="245dp"
@@ -52,7 +52,7 @@
         android:layout_marginTop="139dp"
         android:background="#EDF1E8"
         android:text="Convert from" />
-
+    //Setting the characteristics for the 'TO'Spinner
     <Spinner
         android:id="@+id/spinner_to"
         android:layout_width="245dp"
